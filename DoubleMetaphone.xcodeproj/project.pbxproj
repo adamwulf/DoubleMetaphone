@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C537270B1EA1C5EF0067AFAC /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = C53727091EA1C5EF0067AFAC /* README.markdown */; };
+		C537270C1EA1C5EF0067AFAC /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C537270A1EA1C5EF0067AFAC /* test.cpp */; };
+		C537270F1EA1C6360067AFAC /* NSString+DoubleMetaphone.m in Sources */ = {isa = PBXBuildFile; fileRef = C537270E1EA1C6360067AFAC /* NSString+DoubleMetaphone.m */; };
+		C53727171EA1C7560067AFAC /* DoubleMetaphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C53727161EA1C7560067AFAC /* DoubleMetaphoneTests.m */; };
+		C53727191EA1C7560067AFAC /* libDoubleMetaphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C53726FC1EA1C5DE0067AFAC /* libDoubleMetaphone.a */; };
+		C53727211EA1C89E0067AFAC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C53727201EA1C89E0067AFAC /* libstdc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C537271A1EA1C7560067AFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53726F41EA1C5DE0067AFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53726FB1EA1C5DE0067AFAC;
+			remoteInfo = DoubleMetaphone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C53726FA1EA1C5DE0067AFAC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C53726FC1EA1C5DE0067AFAC /* libDoubleMetaphone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDoubleMetaphone.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53727081EA1C5EF0067AFAC /* double_metaphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = double_metaphone.h; sourceTree = "<group>"; };
+		C53727091EA1C5EF0067AFAC /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = DoubleMetaphone/README.markdown; sourceTree = "<group>"; };
+		C537270A1EA1C5EF0067AFAC /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		C537270D1EA1C6360067AFAC /* NSString+DoubleMetaphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DoubleMetaphone.h"; sourceTree = "<group>"; };
+		C537270E1EA1C6360067AFAC /* NSString+DoubleMetaphone.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = "NSString+DoubleMetaphone.m"; sourceTree = "<group>"; };
+		C53727141EA1C7560067AFAC /* DoubleMetaphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleMetaphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53727161EA1C7560067AFAC /* DoubleMetaphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleMetaphoneTests.m; sourceTree = "<group>"; };
+		C53727181EA1C7560067AFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C53727201EA1C89E0067AFAC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53726F91EA1C5DE0067AFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53727111EA1C7560067AFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53727211EA1C89E0067AFAC /* libstdc++.tbd in Frameworks */,
+				C53727191EA1C7560067AFAC /* libDoubleMetaphone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53726F31EA1C5DE0067AFAC = {
+			isa = PBXGroup;
+			children = (
+				C53726FE1EA1C5DE0067AFAC /* DoubleMetaphone */,
+				C53727091EA1C5EF0067AFAC /* README.markdown */,
+				C53727151EA1C7560067AFAC /* DoubleMetaphoneTests */,
+				C53726FD1EA1C5DE0067AFAC /* Products */,
+				C537271F1EA1C89E0067AFAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C53726FD1EA1C5DE0067AFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53726FC1EA1C5DE0067AFAC /* libDoubleMetaphone.a */,
+				C53727141EA1C7560067AFAC /* DoubleMetaphoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53726FE1EA1C5DE0067AFAC /* DoubleMetaphone */ = {
+			isa = PBXGroup;
+			children = (
+				C53727081EA1C5EF0067AFAC /* double_metaphone.h */,
+				C537270A1EA1C5EF0067AFAC /* test.cpp */,
+				C537270D1EA1C6360067AFAC /* NSString+DoubleMetaphone.h */,
+				C537270E1EA1C6360067AFAC /* NSString+DoubleMetaphone.m */,
+			);
+			path = DoubleMetaphone;
+			sourceTree = "<group>";
+		};
+		C53727151EA1C7560067AFAC /* DoubleMetaphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				C53727161EA1C7560067AFAC /* DoubleMetaphoneTests.m */,
+				C53727181EA1C7560067AFAC /* Info.plist */,
+			);
+			path = DoubleMetaphoneTests;
+			sourceTree = "<group>";
+		};
+		C537271F1EA1C89E0067AFAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C53727201EA1C89E0067AFAC /* libstdc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53726FB1EA1C5DE0067AFAC /* DoubleMetaphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53727051EA1C5DE0067AFAC /* Build configuration list for PBXNativeTarget "DoubleMetaphone" */;
+			buildPhases = (
+				C53726F81EA1C5DE0067AFAC /* Sources */,
+				C53726F91EA1C5DE0067AFAC /* Frameworks */,
+				C53726FA1EA1C5DE0067AFAC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleMetaphone;
+			productName = DoubleMetaphone;
+			productReference = C53726FC1EA1C5DE0067AFAC /* libDoubleMetaphone.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C53727131EA1C7560067AFAC /* DoubleMetaphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C537271C1EA1C7560067AFAC /* Build configuration list for PBXNativeTarget "DoubleMetaphoneTests" */;
+			buildPhases = (
+				C53727101EA1C7560067AFAC /* Sources */,
+				C53727111EA1C7560067AFAC /* Frameworks */,
+				C53727121EA1C7560067AFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C537271B1EA1C7560067AFAC /* PBXTargetDependency */,
+			);
+			name = DoubleMetaphoneTests;
+			productName = DoubleMetaphoneTests;
+			productReference = C53727141EA1C7560067AFAC /* DoubleMetaphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53726F41EA1C5DE0067AFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Milestone Made";
+				TargetAttributes = {
+					C53726FB1EA1C5DE0067AFAC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = MU27A4SCKC;
+						ProvisioningStyle = Automatic;
+					};
+					C53727131EA1C7560067AFAC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = MU27A4SCKC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C53726F71EA1C5DE0067AFAC /* Build configuration list for PBXProject "DoubleMetaphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C53726F31EA1C5DE0067AFAC;
+			productRefGroup = C53726FD1EA1C5DE0067AFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53726FB1EA1C5DE0067AFAC /* DoubleMetaphone */,
+				C53727131EA1C7560067AFAC /* DoubleMetaphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53727121EA1C7560067AFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53726F81EA1C5DE0067AFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C537270F1EA1C6360067AFAC /* NSString+DoubleMetaphone.m in Sources */,
+				C537270B1EA1C5EF0067AFAC /* README.markdown in Sources */,
+				C537270C1EA1C5EF0067AFAC /* test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53727101EA1C7560067AFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53727171EA1C7560067AFAC /* DoubleMetaphoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C537271B1EA1C7560067AFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53726FB1EA1C5DE0067AFAC /* DoubleMetaphone */;
+			targetProxy = C537271A1EA1C7560067AFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C53727031EA1C5DE0067AFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C53727041EA1C5DE0067AFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53727061EA1C5DE0067AFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MU27A4SCKC;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C53727071EA1C5DE0067AFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MU27A4SCKC;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C537271D1EA1C7560067AFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MU27A4SCKC;
+				INFOPLIST_FILE = DoubleMetaphoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milestonemade.DoubleMetaphoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C537271E1EA1C7560067AFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MU27A4SCKC;
+				INFOPLIST_FILE = DoubleMetaphoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milestonemade.DoubleMetaphoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53726F71EA1C5DE0067AFAC /* Build configuration list for PBXProject "DoubleMetaphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53727031EA1C5DE0067AFAC /* Debug */,
+				C53727041EA1C5DE0067AFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53727051EA1C5DE0067AFAC /* Build configuration list for PBXNativeTarget "DoubleMetaphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53727061EA1C5DE0067AFAC /* Debug */,
+				C53727071EA1C5DE0067AFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C537271C1EA1C7560067AFAC /* Build configuration list for PBXNativeTarget "DoubleMetaphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C537271D1EA1C7560067AFAC /* Debug */,
+				C537271E1EA1C7560067AFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53726F41EA1C5DE0067AFAC /* Project object */;
+}
