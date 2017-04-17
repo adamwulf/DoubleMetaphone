@@ -25,7 +25,7 @@
         ret2 = [NSString stringWithUTF8String:result.second.c_str()];
     }
     
-    if(ret1 && ret2){
+    if(ret1 && ret2 && ![ret1 isEqualToString:ret2]){
         return @[ret1, ret2];
     }else if(ret1){
         return @[ret1];
