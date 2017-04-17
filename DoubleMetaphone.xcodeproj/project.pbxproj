@@ -73,8 +73,8 @@
 		C53726F31EA1C5DE0067AFAC = {
 			isa = PBXGroup;
 			children = (
-				C53726FE1EA1C5DE0067AFAC /* DoubleMetaphone */,
 				C53727091EA1C5EF0067AFAC /* README.markdown */,
+				C53726FE1EA1C5DE0067AFAC /* DoubleMetaphone */,
 				C53727151EA1C7560067AFAC /* DoubleMetaphoneTests */,
 				C53726FD1EA1C5DE0067AFAC /* Products */,
 				C537271F1EA1C89E0067AFAC /* Frameworks */,
@@ -394,6 +394,7 @@
 				C53727071EA1C5DE0067AFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C537271C1EA1C7560067AFAC /* Build configuration list for PBXNativeTarget "DoubleMetaphoneTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +403,7 @@
 				C537271E1EA1C7560067AFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
