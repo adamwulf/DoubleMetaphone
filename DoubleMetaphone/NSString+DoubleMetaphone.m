@@ -11,6 +11,15 @@
 
 @implementation NSString (DoubleMetaphone)
 
+-(NSString*) metaphone{
+    NSArray<NSString*>* metaphones = [self metaphones];
+    if([metaphones count]){
+        return metaphones[0];
+    }
+    
+    return @"";
+}
+
 -(NSArray<NSString*>*) metaphones{
     const char* str = [self UTF8String];
     auto result = dm::double_metaphone(str);

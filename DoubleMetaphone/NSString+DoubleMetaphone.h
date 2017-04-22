@@ -10,6 +10,8 @@
 
 @interface NSString (DoubleMetaphone)
 
+-(NSString*) metaphone;
+
 -(NSArray<NSString*>*) metaphones;
 
 @end
